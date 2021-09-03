@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">waleedn_oblig2</string>
+    <string-array name="disctricts">
+        <item>District 1</item>
+        <item>District 2</item>
+        <item>District 3</item>
+    </string-array>
+</resources>
