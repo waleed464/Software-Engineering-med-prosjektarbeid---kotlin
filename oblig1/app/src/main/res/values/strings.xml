@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">waleedn_oblig1</string>
+    <string name="string">Enter your name here</string>
+    <string name="btntext">Next Activity</string>
+    <string name="question_here">Question here</string>
+    <string name="btnText">False</string>
+    <string name="btntrue">True</string>
+    <string-array name="spinner">
+        <item>fluid ounce</item>
+        <item>cup</item>
+        <item>gallon</item>
+        <item>hogshead</item>
+    </string-array>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConverterActivity">
+    <EditText
+        android:hint="Convert To liters"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:padding="15dp"
+        android:id="@+id/etLiter"
+        android:layout_alignParentTop="true" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etLiter"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_margin="20dp"
+        android:id="@+id/spinner"
+        android:entries="@array/spinner"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner"
+        android:layout_centerHorizontal="true"
+        android:text="convert"
+        android:textAllCaps="false"
+        android:padding="5dp"
+        android:textSize="18sp"
+        android:id="@+id/btnConvert"
+        android:layout_marginTop="20dp" />
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConvert"
+        android:text="convert to liters"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="Next Activity"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:id="@+id/btnThirdActivity" />
+
+</RelativeLayout>
